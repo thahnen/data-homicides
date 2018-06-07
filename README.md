@@ -1,8 +1,27 @@
+# My forked Repo of "The Washington Post's Homicide Data Collection"
+
+__Everything from the original README.md is down below!__
+
+## Difference between my Repo an the original
+
+1. Different Maps (generated) for each State/ City (if they lay in more States)
+2. Script for building this maps
+3. Generated GeoJSON-File for use instead of CSV
+
+### All the Maps (viewable)
+
+
+
+### -.-
+
+blah blah ...
+TODO: Fill out this file
+
 [This data is published under an [Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) license](https://creativecommons.org/licenses/by-nc-sa/4.0/)]
 
-# How The Post mapped unsolved murders
+## How The Post mapped unsolved murders
 
-## Data Collection
+### Data Collection
 
 The Washington Post collected data on more than 52,000 criminal homicides over the past decade in 50 of the largest American cities.
 
@@ -14,7 +33,7 @@ In some cases, departments provided only partial information about the homicides
 
 The Post mapped each homicide, identifying arrest rates by geography in each city, sharing the analysis with the local police department prior to publication.
 
-## Definitions
+### Definitions
 
 When possible, The Post followed definitions used in the FBI’s Uniform Crime Reporting Program. In that program, homicides include murder and non-negligent manslaughter but exclude suicides, accidents, justifiable homicides and deaths caused by negligence.
 
@@ -26,11 +45,11 @@ All other cases were classified as having no arrest.
 
 Mass shootings or terrorist attacks in the cities of Las Vegas, Dallas, the District and San Bernardino, Calif., were included on the maps but not factored into annual local arrest rates.
 
-## The Cities
+### The Cities
 
 The 50 police departments were selected based on the size of the city and their violent crime reported to the the FBI in 2012, the middle of the survey period. Most departments provided a decade of data, ending in 2017. New York City, however, provided only two years.
 
-## Mapping Methodology
+### Mapping Methodology
 
 To explore the geography of homicide arrests, The Post created grids of almost 2 million uniformly sized squares over the cities. A kernel density analysis was used to estimate the arrest rate for each square based on the homicides and arrests in its vicinity.
 
@@ -46,12 +65,12 @@ Maps may also include zones with high concentrations of killings, outlined in or
 
 To provide information about homicides in your area, send us an email at unsolved@washpost.com. To explore the data further, [download it from GitHub](https://raw.githubusercontent.com/washingtonpost/data-homicides/master/homicide-data.csv).
 
-## Links
+### Links
 
 Read the story: https://www.washingtonpost.com/graphics/2018/investigations/where-murders-go-unsolved/  
 See the maps: https://www.washingtonpost.com/graphics/2018/investigations/unsolved-homicide-database/
 
-## Credits
+### Credits
 
 Research and Reporting: [Steven Rich](https://www.washingtonpost.com/people/steven-rich/), [Ted Mellnik](https://www.washingtonpost.com/people/ted-mellnik/), [Kimbriell Kelly](https://www.washingtonpost.com/people/kimbriell-kelly/) and [Wesley Lowery](https://www.washingtonpost.com/people/wesley-lowery/)  
 Design and Development: [Leslie Shapiro](https://www.washingtonpost.com/people/leslie-shapiro/)  
