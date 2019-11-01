@@ -42,8 +42,8 @@ with open("index.html") as file:
 			editet_map.append(line)
 		elif "var latlng" in line:
 			added = "(new google.maps.Marker({" + \
-						"title: ''," + \
-						"icon: img," + \
+						"title:''," + \
+						"icon:img," + \
 						"position:" + (line.split("=")[1]).split(";")[0] + \
 				"})).setMap(map);\n"
 			editet_map.append(added)
